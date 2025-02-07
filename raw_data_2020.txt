@@ -1,4 +1,4 @@
-Rank	Male name	Female name
+Rank	Male	Female
 1	Liam	Olivia
 2	Noah	Emma
 3	Oliver	Ava

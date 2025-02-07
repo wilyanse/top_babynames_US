@@ -41,3 +41,16 @@ print("New data:")
 print(new_males)
 print(new_females)
 print(new_both)
+
+# Find the names that are in the old data but not in the new data
+most_popular_boys = [name for name in old_males if name not in new_males][:10]
+print(most_popular_boys)
+
+most_popular_girls = [name for name in old_females if name not in new_females][:10]
+print(most_popular_girls)
+
+most_popular_boys = [name for name in old_males if name not in new_both[:100]][:10]
+print(most_popular_boys)
+
+most_popular_girls = [name for name in old_females if name not in new_both[:100]][:10]
+print(most_popular_girls)
