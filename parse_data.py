@@ -20,7 +20,7 @@ print(old_males)
 print(old_females)
 print(old_both)
 
-new_data = "raw_data_2023.txt"
+new_data = "raw_data_2020.txt"
 
 new_males = []
 new_females = []
